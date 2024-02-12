@@ -1,0 +1,146 @@
+.tittle {
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+}
+
+.tittle h1 {
+    color: #333; /* Set the color of the text */
+    font-size: 30px; /* Set the font size of the heading */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+.container1 {
+    display: flex; /* Use flexbox for layout */
+    align-items: left; /* Center the content vertically */
+    width: 100%;
+    background-color: powderblue;
+}
+
+.bshadow {
+    align-items: left;
+    margin: 50px; /* Add some margin to separate the shadow boxes */
+}
+.ashadow{
+    align-items: left;
+    margin: 50px; /* Add some margin to separate the shadow boxes */
+}
+
+.bshadow img {
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+    float:left;
+}
+.ashadow img{
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+
+.ashadow {
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.7) ; /* After shadow */
+}
+
+.container2 {
+    display: flex; /* Use flexbox for layout */
+    align-items: left; /* Center the content vertically */
+    width: 100%;
+    background-color: pink;
+}
+
+.bopacity, .aopacity {
+    align-items: left;
+    margin: 80px;
+}
+
+.bopacity img {
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px; /* Set a fixed width for the images */
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+.aopacity img{
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+.aopacity {
+    opacity: 0.5; /* After opacity */
+}
+
+.container3 {
+    display: flex; /* Use flexbox for layout */
+    align-items: left; /* Center the content vertically */
+    width: 100%;
+    background-color: #F1F7B5;
+}
+.btransform, .atransform {
+    align-items: left;
+    margin: 80px;
+}
+
+.btransform img {
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+.atransform img{
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+
+.atransform {
+    transform: scale(1.2); /* After transform (scaled up by 20%) */
+}
+
+.rbtransform, .ratransform {
+    align-items: left;
+    margin: 80px;
+}
+
+.rbtransform img {
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+.ratransform img{
+    display: block; /* Ensure images are displayed as block elements */
+    width: 500px; /* Set a fixed width for the images */
+    height: 400px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+
+.ratransform {
+    transform: rotate(45deg); /* After transform (scaled up by 20%) */
+}
+
+.sbtransform, .satransform {
+    align-items: left;
+    margin: 80px;
+}
+
+.sbtransform img {
+    display: block; /* Ensure images are displayed as block elements */
+    width: 400px; /* Set a fixed width for the images */
+    height: 300px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+.satransform img{
+    display: block; /* Ensure images are displayed as block elements */
+    width: 400px; /* Set a fixed width for the images */
+    height: 300px;
+    border-radius: 5px; /* Optional: Add border radius to the images */
+}
+
+.satransform {
+    transform: skew(35deg); /* After transform (scaled up by 20%) */
+}
+
